@@ -25,6 +25,7 @@ namespace PruebaBBDD
 
         private void button2_Click(object sender, EventArgs e)
         {
+
             PokedexBasica ventana = new PokedexBasica();
             ventana.Show();
         }

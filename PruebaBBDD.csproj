@@ -127,6 +127,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="VentanaPrincipal.resx">
       <DependentUpon>VentanaPrincipal.cs</DependentUpon>
@@ -144,6 +145,30 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pokedex.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pokedex_redimensionada.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flechaPokemonDerecha.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flechaPokemonDerecha.1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flechaPokemonIzquierda.1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pokeball.1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pokeball.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pokeball.2.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
